@@ -1,0 +1,50 @@
+{
+    "label" : "lock",
+    "action" : "swaylock \n
+        --screenshots \n
+        --clock \n
+        --indicator \n
+        --indicator-radius 100 \n
+        --indicator-thickness 7 \n
+        --effect-blur 7x5 \n
+        --effect-vignette 0.5:0.5 \n
+        --ring-color bb00cc \n
+        --key-hl-color 880033 \n
+        --line-color 00000000 \n
+        --inside-color 00000088 \n
+        --separator-color 00000000 \n
+        --grace 2 \n
+        --fade-in 0.2",
+    "text" : "Lock (L)",
+    "keybind" : "l"
+}
+{
+    "label" : "hibernate",
+    "action" : "systemctl hibernate",
+    "text" : "Hibernate (H)",
+    "keybind" : "h"
+}
+{
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit --",
+    "text" : "Logout (E)",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown (S)",
+    "keybind" : "s"
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "Suspend (U)",
+    "keybind" : "u"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot (R)",
+    "keybind" : "r"
+}

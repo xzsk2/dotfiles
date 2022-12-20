@@ -1,0 +1,159 @@
+@import "mocha.css";
+
+* {
+  font-family: Sarasa UI SC, Material Design Icons Desktop;
+  font-size: 11pt;
+  min-height: 0;
+}
+
+window#waybar {
+  background-color: rgba(30, 30, 46, 0.8);
+  color: @text;
+  border-radius: 20px;
+}
+
+#workspaces button {
+  background-color: transparent;
+  color: @text;
+  padding: 1px 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 20px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+  background: @blue;
+  border: @blue;
+  color: @crust;
+  padding: 1px 9px;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+  background-color: @green;
+  color: @crust;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#workspaces button.urgent {
+  background-color: @red;
+  color: @crust;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#window {
+  background-color: @blue;
+  color: @crust;
+}
+
+#window:hover {
+  background-color: @sky;
+}
+
+#custom-music,
+#tray,
+#cpu,
+#memory,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-weather,
+#custom-launcher,
+#custom-notification {
+  color: @text;
+  padding: 1px 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 20px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#custom-launcher {
+  background-color: @blue;
+  color: @crust;
+  margin-left: 5px;
+}
+
+#custom-launcher:hover {
+  background-color: @sky;
+}
+
+#tray {
+  background-color: transparent;
+}
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: @red;
+}
+
+#cpu {
+  background-color: @sapphire;
+  color: @crust;
+}
+
+#cpu:hover {
+  background-color: @teal;
+}
+
+#memory {
+  background-color: @green;
+  color: @crust;
+}
+
+#memory:hover {
+  background-color: @teal;
+}
+
+#pulseaudio {
+  background-color: @mauve;
+  color: @crust;
+  margin-right: 5px;
+}
+
+#pulseaudio:hover {
+  background-color: @pink;
+}
+
+#clock {
+  background-color: @lavender;
+  color: @crust;
+}
+
+#clock:hover {
+  background-color: @text;
+}
+
+#custom-weather {
+  background-color: @teal;
+  color: @crust;
+}
+
+#custom-music {
+  background-color: @rosewater;
+  color: @crust;
+}
+
+#custom-notification {
+    background-color: @red;
+	color: @crust;
+	margin-right: 5px;
+}
+
