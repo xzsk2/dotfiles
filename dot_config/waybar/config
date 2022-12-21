@@ -49,12 +49,12 @@
             "warning": 70,
             "critical": 90
         },
-        "on-click": "kitty htop"
+        "on-click": "foot htop"
     },
     "memory": {
         "interval": 5,
         "format": "  {used:0.1f}G/{total:0.1f}G",
-        "on-click": "kitty btop"
+        "on-click": "foot btop"
     },
     "custom/music": {
         "format": "  {}",
