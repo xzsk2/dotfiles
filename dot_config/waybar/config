@@ -5,7 +5,7 @@
 	"height": 34,
 	
 	// Margins value using the css format without units.
-    "margin": "",
+    //"margin": "",
 
     // Margins value without units.
     "margin-top": 5,
@@ -75,7 +75,7 @@
         "format": "  {:%m-%d %A %H:%M:%S}"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
+        "scroll-step": 2, // %, can be a float
         "format": "{icon} {volume}%",
         "format-muted": "",
         "format-icons": {
