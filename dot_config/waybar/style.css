@@ -31,7 +31,7 @@ window#waybar {
   background: @blue;
   border: @blue;
   color: @crust;
-  padding: 1px 9px;
+  padding: 1px 8px;
   transition-property: background-color;
   transition-duration: 1s;
 }
