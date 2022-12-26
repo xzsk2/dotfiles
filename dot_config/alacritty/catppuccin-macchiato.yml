@@ -43,7 +43,7 @@ colors:
 
     # Normal colors
     normal:
-        black: "#494D64" # surface1
+        black: "0x100e23" # surface1
         red: "#ED8796" # red
         green: "#A6DA95" # green
         yellow: "#EED49F" # yellow
@@ -54,7 +54,7 @@ colors:
 
     # Bright colors
     bright:
-        black: "#5B6078" # surface2
+        black: "0x565575" # surface2
         red: "#ED8796" # red
         green: "#A6DA95" # green
         yellow: "#EED49F" # yellow
@@ -65,7 +65,7 @@ colors:
 
     # Dim colors
     dim:
-        black: "#494D64" # surface1
+        black: "0x100e23" # surface1
         red: "#ED8796" # red
         green: "#A6DA95" # green
         yellow: "#EED49F" # yellow
