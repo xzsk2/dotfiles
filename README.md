@@ -13,4 +13,5 @@ Themed by [Catppuccin Theme](https://github.com/catppuccin/catppuccin)
 - fontconfig
 - mako
 - wlogout
+- rofi
 - sway (reserved, switching to hyprland)
