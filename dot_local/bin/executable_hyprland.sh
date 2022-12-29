@@ -1,6 +1,6 @@
 #!/bin/bash
 # A wrapper script for launching hyprland
-# For system-wide environmen variables, check /etc/environment
+# For system-wide environment variables, check /etc/environment
 
 # XDG Specifications
 export XDG_SESSION_TYPE=wayland
