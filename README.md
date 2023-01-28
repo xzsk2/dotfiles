@@ -15,3 +15,4 @@ Themed by [Catppuccin Theme](https://github.com/catppuccin/catppuccin)
 - wlogout
 - rofi
 - sway (reserved, switching to hyprland)
+- swaylock
