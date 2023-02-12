@@ -16,3 +16,4 @@ Themed by [Catppuccin Theme](https://github.com/catppuccin/catppuccin)
 - rofi
 - sway (reserved, switching to hyprland)
 - swaylock
+- mpv
