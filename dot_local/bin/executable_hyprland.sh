@@ -2,6 +2,9 @@
 # A wrapper script for launching hyprland
 # For system-wide environment variables, check /etc/environment
 
+# Log WLR errors and logs to the hyprland log. Recommended
+export HYPRLAND_LOG_WLR=1
+
 # XDG Specifications
 export XDG_SESSION_TYPE=wayland
 export XDG_CURRENT_DESKTOP=Hyprland
