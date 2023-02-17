@@ -1,7 +1,7 @@
 @import "themes/frappe.css";
 
 * {
-  font-family: Sarasa UI SC, Material Design Icons Desktop;
+  font-family: Sarasa UI SC, Sarasa Mono SC Wide Nerd;
   font-size: 11pt;
   min-height: 0;
 }
@@ -15,7 +15,7 @@ window#waybar {
 #workspaces button {
   background-color: transparent;
   color: @text;
-  padding: 1px 8px;
+  padding: 0px 8px;
   margin-top: 3px;
   margin-bottom: 3px;
   margin-left: 2px;
