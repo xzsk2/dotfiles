@@ -70,9 +70,15 @@
     "clock": {
         "interval": 1,
         "timezone": "Asia/Shanghai",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "format-alt": "   {:%Y/%m/%d}",
-        "format": "   {:%m-%d %A %H:%M:%S}"
+        "format": "   {:%m-%d %A %H:%M:%S}",
+        "calendar": {
+            "format": {
+                "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+              }
+          }
     },
     "pulseaudio": {
         "scroll-step": 2, // %, can be a float
@@ -82,11 +88,6 @@
             "default": ["", "", " "]
         },
         "on-click": "pavucontrol"
-    },
-    "custom/power": {
-        "tooltip": false,
-        "on-click": "wlogout &",
-        "format": "襤"
     },
     "custom/weather": {
         "interval": 1200,
