@@ -17,3 +17,4 @@ Themed by [Catppuccin Theme](https://github.com/catppuccin/catppuccin)
 - sway (reserved, switching to hyprland)
 - swaylock
 - mpv
+- neovim
