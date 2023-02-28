@@ -1,24 +1,24 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    // "width": 1280, // Waybar width
-	"height": 34,
-	
-	// Margins value using the css format without units.
+    //"width": 1280, // Waybar width
+    "height": 34,
+    
+    // Margins value using the css format without units.
     //"margin": "",
 
     // Margins value without units.
     "margin-top": 5,
-    // "margin-bottom": 10,
+    //"margin-bottom": 10,
     "margin-left": 10,
     "margin-right": 10,
-	
+    
     // Size of gaps in between of the different modules. Default: 4.
     "spacing": 4,
-	
+    
     // Choose the order of the modules
     "modules-left": [
-	    "custom/launcher",
+        "custom/launcher",
         "wlr/workspaces", 
         "custom/music"
     ],
@@ -31,12 +31,11 @@
         "cpu",
         "memory", 
         "pulseaudio"
-        //"custom/notification"
     ],
     "wlr/workspaces": {
-		"disable-scroll": true,
-		"sort-by-name": true,
-		"on-click": "activate"
+        "disable-scroll": true,
+        "sort-by-name": true,
+        "on-click": "activate"
      },
     "tray": {
         "icon-size": 21,
@@ -63,7 +62,7 @@
         "tooltip": false,
         "exec": "playerctl metadata --format='{{ title }} - {{ artist }}'",
         "on-click": "playerctl play-pause",
-		"on-scroll-down": "playerctl next", 
+        "on-scroll-down": "playerctl next", 
         "on-scroll-up": "playerctl previous",
         "max-length": 50
     },
@@ -94,27 +93,11 @@
         "tooltip-format": "{tooltip}",
         "exec": "curl 'https://wttr.in/Zhengzhou?format=1&m'"
     },
-    "custom/notification": {
-        "tooltip": false,
-        "format": "{icon}",
-        "format-icons": {
-            "notification": "<span foreground='red'><sup></sup></span>",
-            "none": "",
-            "dnd-notification": "<span foreground='red'><sup></sup></span>",
-            "dnd-none": " "
-        },
-        "return-type": "json",
-        "exec-if": "which swaync-client",
-        "exec": "swaync-client -swb",
-        "on-click": "swaync-client -t -sw",
-        "on-click-right": "swaync-client -d -sw",
-        "escape": true
-    },
     "hyprland/window": {
         "format": " {:.40} ",
-		"separate-outputs": false
+        "separate-outputs": false
     },
-	"custom/launcher": {
+    "custom/launcher": {
         "format": " ",
         "on-click": "rofi -show drun",
         "on-click-right": "rofi -show drun",
