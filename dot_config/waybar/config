@@ -48,12 +48,12 @@
             "warning": 70,
             "critical": 90
         },
-        "on-click": "foot --override=font='Sarasa Mono SC Wide Nerd:size=10' htop"
+        "on-click": "foot --override=font='Sarasa Term SC Nerd:size=10' htop"
     },
     "memory": {
         "interval": 5,
         "format": "   {used:0.1f}G/{total:0.1f}G",
-        "on-click": "foot --override=font='Sarasa Mono SC Wide Nerd:size=10' btop"
+        "on-click": "foot --override=font='Sarasa Term SC Nerd:size=10' btop"
     },
     "custom/music": {
         "format": "   {}",
