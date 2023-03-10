@@ -1,3 +1,3 @@
 #!/bin/bash
 sleep 5
-telegram-desktop -startintray
+QT_QPA_PLATFORMTHEME=gtk3 telegram-desktop -startintray
