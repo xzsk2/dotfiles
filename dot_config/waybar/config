@@ -3,7 +3,7 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     //"width": 1280, // Waybar width
     "height": 34,
-    
+
     // Margins value using the css format without units.
     //"margin": "",
 
@@ -12,14 +12,14 @@
     //"margin-bottom": 10,
     "margin-left": 10,
     "margin-right": 10,
-    
+
     // Size of gaps in between of the different modules. Default: 4.
     "spacing": 4,
-    
+
     // Choose the order of the modules
     "modules-left": [
         "custom/launcher",
-        "wlr/workspaces", 
+        "wlr/workspaces",
         "custom/music"
     ],
     "modules-center": [
@@ -29,13 +29,13 @@
     "modules-right": [
         "tray",
         "cpu",
-        "memory", 
+        "memory",
         "pulseaudio"
     ],
     "wlr/workspaces": {
-        "disable-scroll": true,
-        "sort-by-name": true,
-        "on-click": "activate"
+        "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
      },
     "tray": {
         "icon-size": 21,
@@ -62,7 +62,7 @@
         "tooltip": false,
         "exec": "playerctl metadata --format='{{ title }} - {{ artist }}'",
         "on-click": "playerctl play-pause",
-        "on-scroll-down": "playerctl next", 
+        "on-scroll-down": "playerctl next",
         "on-scroll-up": "playerctl previous",
         "max-length": 50
     },
