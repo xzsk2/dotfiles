@@ -18,3 +18,6 @@ Themed by [Catppuccin Theme](https://github.com/catppuccin/catppuccin)
 - swaylock
 - mpv
 - neovim
+
+
+这是一个测试
